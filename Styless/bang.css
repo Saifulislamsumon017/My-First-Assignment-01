@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Fira Sans", serif;
+}
+
+:root{
+  --primary:#0E0E0E;
+  --secendary:#FFFFFF;
+  --text:#0E0E0E;
+  --btn1:#006A50;
+  --btn2:#5490F5;
+  --btn3:#FFC239;
+  --Bg1:#C6E4D6;
+  --Bg2:#5490F533;
+  --Bg3:#F7EBCF;
+}
