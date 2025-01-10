@@ -114,7 +114,7 @@
   width: 1280px;
   height: 650px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 70px;
   gap: 32px;
 }
 .future-description{
@@ -239,7 +239,7 @@
 .opinion{width: 1280px;
   height: 480px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 70px;
   gap: 32px;
 
 }
@@ -311,5 +311,63 @@
   margin: 0 auto;
   margin-top: 50px;
   gap: 32px;
+}
+.future-description{
+  font-family: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.box{
+  margin-bottom: 20px;
+  display: flex;
+  height: 402;
+  padding: 48px;
+  gap: 32px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  box-shadow: 0px 0px 2px 0px rgba(255, 255, 255, 1) ;
+}
+.img1{
+  width: 400px;
+  height: 300px;
+  border-radius: 24px;
+}
+.content{
+  width: 750px;
+  height: 300px;
+}
+.cont-h{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.im1{
+  width: 135px;
+  height: 40px;
+}
+.info{
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.cont-p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.recent-description{
+  font-family: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 20px;
+  margin-bottom: 30px;
 
 }
