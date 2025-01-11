@@ -95,7 +95,7 @@
   border-radius: 16px;
   gap: 24px;
   padding: 24px;
-  box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15)
+  box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15);
 }
 .item-title{
   font-size: 20px;
@@ -307,7 +307,7 @@
 }
 .recnt{
   width: 1280px;
-  height: 1480px;
+  height: 1430px;
   margin: 0 auto;
   margin-top: 50px;
   gap: 32px;
@@ -369,5 +369,53 @@
   color: rgba(14, 14, 14, 0.7);
   margin-top: 20px;
   margin-bottom: 30px;
+}
 
+.today{
+  width: 1280px;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 32px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.item-descr{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.amunts{
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.amunt{
+  width: 240px;
+  background-color: #FFFFFF;
+  border: 1px;
+  box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+  gap: 24px;
+}
+.amunt2{
+  width: 240px;
+  background-color: rgba(198, 228, 214, 1);
+  border: 1px;
+  box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+  gap: 24px;
 }
