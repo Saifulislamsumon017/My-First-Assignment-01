@@ -66,6 +66,11 @@
   border: none;
   margin-top: 30px;
 }
+.btn-1:hover{
+  background-color: transparent;
+  border: 1px solid var(--btn1);
+  color: var(--primary);
+}
 .Pillars{
   width: 1280px;
   height: 350px;
@@ -97,6 +102,9 @@
   gap: 24px;
   padding: 24px;
   box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15);
+}
+.item:hover{
+  background-color: var(--Bg1);
 }
 .item-title{
   font-size: 20px;
@@ -140,6 +148,10 @@
   padding: 24px;
   box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15)
 }
+.Future-item1:hover{
+  background-color: var(--secendary);
+  border: 1px solid var(--primary);
+}
 .Future-item2{
   background-color: rgba(198, 228, 214, 1);
   width: 410px;
@@ -150,6 +162,10 @@
   padding: 24px;
   box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15)
 }
+.Future-item2:hover{
+  background-color: var(--secendary);
+  border: 1px solid var(--primary);
+}
 .Future-item3{
   background-color: rgba(247, 235, 207, 1);
   width: 410px;
@@ -159,6 +175,10 @@
   gap: 24px;
   padding: 24px;
   box-shadow: 0px 0px 2px 0px rgba(14, 14, 14, 0.15)
+}
+.Future-item3:hover{
+  background-color: var(--secendary);
+  border: 1px solid var(--primary);
 }
 .fu-title{
   font-size: 20px;
@@ -496,6 +516,11 @@ form input[type="submit"]{
    font-weight: 600;
    line-height: 21px;
    color:rgba(255, 255, 255, 1);
+}
+form input[type="submit"]:hover{
+  background-color: transparent;
+  color: #0E0E0E;
+  border: 1px solid var(--btn1);
 }
 .inp{
   margin-top: 20px;
