@@ -23,13 +23,13 @@
   width: 1280px;
   height: 560px;
   margin: 0 auto;
+  margin-top: 20px;
   display: flex;
   justify-content:space-between;
   padding: 80px 100px 80px 100px;
   background-color: var(--Bg1);
   border-radius: 24px;
   gap: 64px;
-  margin-top: 50px;
 }
 .left-continer{
   width: 50%;
@@ -70,6 +70,7 @@
   background-color: transparent;
   border: 1px solid var(--btn1);
   color: var(--primary);
+  cursor: pointer;
 }
 .Pillars{
   width: 1280px;
@@ -204,6 +205,13 @@
   line-height: 20px;
   margin-top: 20px;
 }
+.btn-2:hover{
+  background-color: var(--secendary);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  cursor: pointer;
+}
+
 .btn-3{
   background-color:var(--btn1);
   padding: 11px 20px 11px 20px;
@@ -215,6 +223,12 @@
   line-height: 20px;
   margin-top: 20px;
 }
+.btn-3:hover{
+  background-color: var(--secendary);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  cursor: pointer;
+}
 .btn-4{
   background-color:var(--btn3);
   padding: 11px 20px 11px 20px;
@@ -225,6 +239,12 @@
   font-weight: 600;
   line-height: 20px;
   margin-top: 20px;
+}
+.btn-4:hover{
+  background-color: var(--secendary);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  cursor: pointer;
 }
 .qutation{
   background-image: url(../assets/quote-bg.png);
@@ -319,6 +339,11 @@
   font-weight: 500;
   line-height: 20px;
   color: rgba(14, 14, 14, 1);
+}
+.bt:hover{
+  background-color: var(--secendary);
+  cursor: pointer;
+
 }
 .hd-title{
   font-size: 16px;
@@ -431,6 +456,10 @@
   padding: 24px;
   gap: 24px;
 }
+.amunt:hover{
+  background-color: var(--Bg1);
+  border: 1px solid var(--Bg1);
+}
 .amunt2{
   width: 240px;
   background-color: rgba(198, 228, 214, 1);
@@ -439,6 +468,10 @@
   border-radius: 16px;
   padding: 24px;
   gap: 24px;
+}
+.amunt2:hover{
+  background-color:var(--secendary);
+  border: 1px solid var(--primary);
 }
 
 div input[type="text"]{
@@ -521,6 +554,7 @@ form input[type="submit"]:hover{
   background-color: transparent;
   color: #0E0E0E;
   border: 1px solid var(--btn1);
+  cursor: pointer;
 }
 .inp{
   margin-top: 20px;
@@ -528,4 +562,64 @@ form input[type="submit"]:hover{
   font-size: 16px;
    font-weight: 400;
    line-height: 20px;
+}
+.fa-solid{
+  padding-left: 10px;
+}
+
+.tod{
+  overflow: hidden;
+  width: 1280px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 32px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+hr{
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+
+}
+header{
+  max-width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+ header div{
+  display: flex;
+  justify-content: space-between;
+padding: 25px 0px 25px 0px;
+align-items: center;
+}
+.logo{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  color: var(--primary);
+}
+.h-btn{
+  padding: 15px 30px 15px 30px;
+  border: 1px solid #006A50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--btn1);
+  line-height: 22px;
+}
+.h-btn:hover{
+  background-color: #006A50;
+  color: #FFFFFF;
+  cursor: pointer;
 }
