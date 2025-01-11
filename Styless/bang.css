@@ -29,6 +29,7 @@
   background-color: var(--Bg1);
   border-radius: 24px;
   gap: 64px;
+  margin-top: 50px;
 }
 .left-continer{
   width: 50%;
@@ -434,4 +435,72 @@ div input[type="text"]{
    font-weight: 400;
    line-height: 24px;
    color:rgba(14, 14, 14, 0.3);
+}
+.Newsletter{
+  width: 1280px;
+  height: 395px;
+  margin: 0 auto;
+  border-radius: 24px;
+  padding: 80px 100px 80px 100px;
+  gap: 64px;
+  background-color: rgba(198, 228, 214, 1);
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.news-descr{
+  max-width: 622px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.email-box{
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form input[type="email"]{
+  max-width: 600px;
+   height: 64px;
+   background-color: #FFFFFF;
+   padding: 18px 40px 18px 40px;
+   width: 1020px;
+   border: none;
+   border-radius: 8px 0px 0px 8px;
+   display: block;
+   margin: 0 auto;
+   margin-top: 20px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   color:rgba(14, 14, 14, 0.3);
+}
+form input[type="submit"]{
+  max-width: 150px;
+   height: 64px;
+   background-color: rgba(0, 106, 80, 1);
+   padding: 17px 40px 17px 40px;
+   width: 1020px;
+   border: none;
+   border-radius: 0px 8px 8px 0px;
+   display: block;
+   margin: 0 auto;
+   margin-top: 20px;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 21px;
+   color:rgba(255, 255, 255, 1);
+}
+.inp{
+  margin-top: 20px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
 }
